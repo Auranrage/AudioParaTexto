@@ -1,5 +1,4 @@
 import os
-
 import telebot
 import speech_recognition
 import subprocess
@@ -334,9 +333,11 @@ def callback_query(query):
     mudarIdiomaTradutor(buttonId, chatId, messageId)
     
 #Transcriçao de audio para texto
-@bot.message_handler(
-    content_types=['audio', 'video', 'video_note', 'voice'])
+@bot.message_handler(content_types=['audio', 'video', 'video_note', 'voice'])
 def transcriber(message):
+  downloadedAudioFile = 'TemporaryFiles/downloadedFile.ogg'
+  convertedAudioFile = "TemporaryFiles/convertedFile.wav"
+
   
   if message.content_type == 'voice':
     file = bot.get_file(message.voice.file_id)
@@ -344,19 +345,18 @@ def transcriber(message):
     file = bot.get_file(message.audio.file_id)
 
   downloaded_file = bot.download_file(file.file_path)
-  with open('new_file.ogg', 'wb') as new_file:
+  with open(downloadedAudioFile, 'wb') as new_file:
     new_file.write(downloaded_file)
 
-  filename = "voice.wav"
 
   # convert mp3 to wav file
-  subprocess.call(['ffmpeg', '-i', 'new_file.ogg', 'voice.wav', '-y'])
+  subprocess.call(['ffmpeg', '-i', downloadedAudioFile, convertedAudioFile, '-y'])
    
   # initialize the recognizer
   recognizer = speech_recognition.Recognizer()
 
   # open the file
-  with speech_recognition.AudioFile(filename) as source:
+  with speech_recognition.AudioFile(convertedAudioFile) as source:
     # listen for the data (load audio to memory)
     audio_data = recognizer.record(source)
     
