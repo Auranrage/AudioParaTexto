@@ -13,7 +13,7 @@ def defineIdiomaTextoFonte(idiomaAudio):
       idiomaTextoFonte = 'portuguese'
   elif idiomaAudio == "en-US":
     idiomaTextoFonte = 'english'
-  elif idiomaAudio == "en-BR":
+  elif idiomaAudio == "en-GB":
     idiomaTextoFonte = 'english'
   elif idiomaAudio == "ja-JP":
     idiomaTextoFonte = 'japanese'
@@ -56,11 +56,13 @@ def defineIdiomaTextoFonte(idiomaAudio):
 
 #Funcao para mudar o idioma de transcrição dos audios
 def mudarIdiomaAudio (buttonId, chatId, messageId):
+  responder = 1
+  
   if buttonId == "pt-BR":
     mensagem_idioma = "Português Brasil"
   elif buttonId == "en-US":
     mensagem_idioma = "Inglês Americano"
-  elif buttonId == "en-BR":
+  elif buttonId == "en-GB":
     mensagem_idioma = "Inglês Britânico"
   elif buttonId == "ja-JP":
     mensagem_idioma = "Japonês"
@@ -98,14 +100,19 @@ def mudarIdiomaAudio (buttonId, chatId, messageId):
     mensagem_idioma = "Noruguês"
   elif buttonId == "right1":
     bot.edit_message_reply_markup(chatId, messageId, reply_markup=teclado.idioma2)
+    responder = 0
   elif buttonId == "left2":
     bot.edit_message_reply_markup(chatId, messageId, reply_markup=teclado.idioma1)
+    responder = 0
 
-  bot.edit_message_reply_markup(chatId, messageId)  
-  bot.send_message(chatId, "Ok, agora irei transcrever aúdios no idioma "+mensagem_idioma)
+  if responder == 1:
+    bot.edit_message_reply_markup(chatId, messageId)  
+    bot.send_message(chatId, "Ok, agora irei transcrever aúdios no idioma "+mensagem_idioma)
 
 #Funcao para mudar o idioma do tradutor
 def mudarIdiomaTradutor (buttonId, chatId, messageId):
+  responder = 1
+  
   if buttonId == "portuguese":
     mensagem_idioma = "Português"
   elif buttonId == "english":
@@ -140,8 +147,63 @@ def mudarIdiomaTradutor (buttonId, chatId, messageId):
     mensagem_idioma = "Noruguês"
   elif buttonId == "right1":
     bot.edit_message_reply_markup(chatId, messageId, reply_markup=teclado.tradutor2)
+    responder = 0
   elif buttonId == "left2":
     bot.edit_message_reply_markup(chatId, messageId, reply_markup=teclado.tradutor1)
+    responder = 0
 
-  bot.edit_message_reply_markup(chatId, messageId)  
-  bot.send_message(chatId, "Ok, agora irei traduzir os aúdios para o idioma "+mensagem_idioma)
+  if responder == 1:
+    bot.edit_message_reply_markup(chatId, messageId)  
+    bot.send_message(chatId, "Ok, agora irei traduzir os aúdios para o idioma "+mensagem_idioma)
+
+def showInternalConfigToUser(userData):
+  if userData == "pt-BR":
+    mostrar = "Português Brasil"
+  elif userData == "en-US":
+    mostrar = "Inglês Americano"
+  elif userData == "en-GB":
+    mostrar = "Inglês Britânico"
+  elif userData == "ja-JP" or userData == "japanese":
+    mostrar = "Japonês"
+  elif userData == "hi-IN" or userData == "hindi":
+    mostrar = "Hindi"
+  elif userData == "es-AR":
+    mostrar = "Espanhol Argentino"
+  elif userData == "es-PY":
+    mostrar = "Espanhol Paraguaio"
+  elif userData == "es-ES":
+    mostrar = "Espanhol Espanhol"
+  elif userData == "ko-KR" or userData == "korean":
+    mostrar = "Coreano"
+  elif userData == "zh-CN":
+    mostrar = "Chinês Simplificado"
+  elif userData == "zh-TW":
+    mostrar = "Chinês Tradicional"
+  elif userData == "fr-FR" or userData == "french":
+    mostrar = "Francês"
+  elif userData == "de-DE" or userData == "german":
+    mostrar = "Alemão"
+  elif userData == "it-IT" or userData == "italian":
+    mostrar = "Italiano"
+  elif userData == "el-GR" or userData == "greek":
+    mostrar = "Grego"
+  elif userData == "da-DK" or userData == "danish":
+    mostrar = "Dinamarquês"
+  elif userData == "ar-EG":
+    mostrar = "Árabe Egipcio"
+  elif userData == "ar-IL":
+    mostrar = "Árabe Israel"
+  elif userData == "af-ZA" or userData == "afrikaans":
+    mostrar = "Afrikaans (Africa do Sul)"
+  elif userData == "no-NO" or userData == "norwegian":
+    mostrar = "Noruguês"
+  elif userData == "portuguese":
+    mostrar = "Português"
+  elif userData == "english":
+    mostrar = "Inglês"  
+  elif userData == "spanish":
+    mostrar = "Espanhol" 
+  elif userData == "arabic":
+    mostrar = "Árabe"
+
+  return mostrar

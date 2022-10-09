@@ -20,3 +20,16 @@ def checkUserExist(chatId, first_name, last_name):
     connect.commit()
 
   connect.close()
+
+def getUserData(chatId):
+  connect = sqlite3.connect('database.db')
+  cursor = connect.cursor()
+
+  cursor.execute("SELECT * FROM users WHERE user_id = :id",{'id': chatId})
+  userData = cursor.fetchone()
+  #print(userData)
+  #userData example = (5480482418, 'Rodrigo', 'Cardoso', 'pt-BR', 0, 'portuguese')
+  
+  connect.close()
+  return userData
+    
