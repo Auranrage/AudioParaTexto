@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.sqlite.bin
     pkgs.ffmpeg.bin
     pkgs.python38Full
   ];
