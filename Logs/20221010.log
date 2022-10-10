@@ -1,0 +1,72 @@
+22-10-10 02:04:11-6949-INFO-Bot started. Good morning administrator
+22-10-10 02:47:26-6949-INFO-User 156724718 requested /start function
+22-10-10 02:47:26-6949-INFO-User 156724718 request to /start function COMPLETED
+22-10-10 02:56:23-6949-INFO-User 156724718 requested /ajuda function
+22-10-10 02:56:23-6949-INFO-User 156724718 request to /ajuda function COMPLETED
+22-10-10 02:56:39-6949-INFO-User 156724718 requested /idioma function
+22-10-10 02:56:43-6949-INFO-User 156724718 changed transcriber language to ja-JP
+22-10-10 02:57:16-6949-INFO-User 156724718 started transcriber function
+22-10-10 02:57:17-6949-INFO-User 156724718-Bot downloaded audio file successfully
+22-10-10 02:57:17-6949-INFO-User 156724718-Bot converted the file to WAV
+22-10-10 02:57:18-6949-INFO-User 156724718-Bot finished transcribing the file
+22-10-10 02:57:18-6949-INFO-User 156724718-Result of transcriber sent to user
+22-10-10 03:09:26-6949-INFO-User 5480482418 requested /idioma function
+22-10-10 03:09:30-6949-INFO-User 5480482418 changed transcriber language to right1
+22-10-10 03:09:31-6949-INFO-User 5480482418 changed transcriber language to left2
+22-10-10 03:09:33-6949-INFO-User 5480482418 changed transcriber language to ja-JP
+22-10-10 03:09:36-6949-INFO-User 5480482418 requested /tradutor function
+22-10-10 03:09:40-6949-INFO-User 5480482418 turned the translator on
+22-10-10 03:09:45-6949-INFO-User 5480482418 changed translator language to portuguese
+22-10-10 03:57:07-6949-INFO-User 5480482418 started transcriber function
+22-10-10 03:57:08-6949-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-10 03:57:08-6949-INFO-User 5480482418-Bot converted the file to WAV
+22-10-10 03:57:09-6949-INFO-User 5480482418-Bot finished transcribing the file
+22-10-10 03:57:10-6949-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-10 03:57:10-6949-INFO-User 5480482418-Result of translation sent to user
+22-10-10 04:17:24-6949-INFO-User 5480482418 requested /idioma function
+22-10-10 04:17:31-6949-INFO-User 5480482418 changed transcriber language to ja-JP
+22-10-10 04:18:20-6949-INFO-User 5480482418 started transcriber function
+22-10-10 04:18:20-6949-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-10 04:18:20-6949-INFO-User 5480482418-Bot converted the file to WAV
+22-10-10 04:18:21-6949-INFO-User 5480482418-Bot finished transcribing the file
+22-10-10 04:18:22-6949-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-10 04:18:23-6949-INFO-User 5480482418-Result of translation sent to user
+22-10-10 11:17:34-10634-INFO-Bot started. Good morning administrator
+22-10-10 11:21:26-10634-INFO-User 5480482418 requested /config function
+22-10-10 11:21:26-10634-INFO-User 5480482418 request to /config function COMPLETED
+22-10-10 11:21:29-10634-INFO-User 5480482418 requested /idioma function
+22-10-10 11:21:32-10634-INFO-User 5480482418 changed transcriber language to pt-BR
+22-10-10 11:21:37-10634-INFO-User 5480482418 requested /tradutor function
+22-10-10 11:21:39-10634-INFO-User 5480482418 turned the translator off
+22-10-10 11:21:42-10634-INFO-User 5480482418 started transcriber function
+22-10-10 11:21:42-10634-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-10 11:21:42-10634-INFO-User 5480482418-Bot converted the file to WAV
+22-10-10 11:21:43-10634-INFO-User 5480482418-Bot finished transcribing the file
+22-10-10 11:21:43-10634-INFO-User 5480482418-Result of transcriber sent to user
+22-10-10 11:21:47-10634-INFO-User 5480482418 started transcriber function
+22-10-10 11:21:47-10634-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-10 11:21:47-10634-INFO-User 5480482418-Bot converted the file to WAV
+22-10-10 11:21:47-10634-ERROR-Not able to understand the audio file = 
+Traceback (most recent call last):
+  File "main.py", line 225, in transcriber
+    TextoResultado = recognizer.recognize_google(audio_data,
+  File "/home/runner/TelegramBot/venv/lib/python3.8/site-packages/speech_recognition/__init__.py", line 858, in recognize_google
+    if not isinstance(actual_result, dict) or len(actual_result.get("alternative", [])) == 0: raise UnknownValueError()
+speech_recognition.UnknownValueError
+22-10-10 11:21:53-10634-INFO-User 5480482418 started transcriber function
+22-10-10 11:21:53-10634-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-10 11:21:53-10634-INFO-User 5480482418-Bot converted the file to WAV
+22-10-10 11:21:54-10634-INFO-User 5480482418-Bot finished transcribing the file
+22-10-10 11:21:54-10634-INFO-User 5480482418-Result of transcriber sent to user
+22-10-10 11:23:29-10634-INFO-User 5778540317 started transcriber function
+22-10-10 11:23:29-10634-INFO-User 5778540317 is using the system for the first time. Adding user to database.
+22-10-10 11:23:29-10634-INFO-User 5778540317 added to users table.
+22-10-10 11:23:30-10634-INFO-User 5778540317-Bot downloaded audio file successfully
+22-10-10 11:23:30-10634-INFO-User 5778540317-Bot converted the file to WAV
+22-10-10 11:23:31-10634-INFO-User 5778540317-Bot finished transcribing the file
+22-10-10 11:23:31-10634-INFO-User 5778540317-Result of transcriber sent to user
+22-10-10 11:24:08-10634-INFO-User 5778540317 started transcriber function
+22-10-10 11:24:09-10634-INFO-User 5778540317-Bot downloaded audio file successfully
+22-10-10 11:24:09-10634-INFO-User 5778540317-Bot converted the file to WAV
+22-10-10 11:24:09-10634-INFO-User 5778540317-Bot finished transcribing the file
+22-10-10 11:24:10-10634-INFO-User 5778540317-Result of transcriber sent to user

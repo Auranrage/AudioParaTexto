@@ -239,7 +239,7 @@ def transcriber(message):
           bot.reply_to(message, "Texto do audio: "+TextoResultado+"\nTexto Traduzido: "+TextoTraduzido)
   
           logging.info('User %s-Result of translation sent to user', chatId)
-          print('User '+str(chatId)+'Result of translation sent to user')
+          print('User '+str(chatId)+'-Result of translation sent to user')
           
         else:
           bot.reply_to(message, TextoResultado)

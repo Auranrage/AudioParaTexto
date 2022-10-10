@@ -426,3 +426,138 @@ UnboundLocalError: local variable 'mensagem_idioma' referenced before assignment
 22-10-09 19:14:10-452-INFO-User 5480482418-Bot finished transcribing the file
 22-10-09 19:14:11-452-INFO-User 5480482418-Bot finished translating the resulting text
 22-10-09 19:14:11-452-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:08:12-33-INFO-Bot started. Good morning administrator
+22-10-09 20:25:20-1155-INFO-Bot started. Good morning administrator
+22-10-09 20:25:36-28-INFO-Bot started. Good morning administrator
+22-10-09 20:26:46-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:26:47-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:26:48-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:26:49-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:26:50-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:26:50-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:27:00-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:27:01-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:27:01-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:27:02-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:27:02-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:27:03-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:27:08-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:27:09-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:27:09-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:27:09-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:27:10-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:27:10-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:28:28-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:28:28-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:28:28-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:28:29-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:28:29-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:28:30-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:28:56-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:28:56-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:28:57-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:28:57-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:28:58-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:28:58-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:30:50-28-INFO-User 553483302 requested /idioma function
+22-10-09 20:30:53-28-INFO-User 553483302 changed transcriber language to pt-BR
+22-10-09 20:30:57-28-INFO-User 553483302 requested /start function
+22-10-09 20:30:58-28-INFO-User 553483302 request to /start function COMPLETED
+22-10-09 20:30:59-28-INFO-User 553483302 requested /config function
+22-10-09 20:30:59-28-INFO-User 553483302 request to /config function COMPLETED
+22-10-09 20:31:28-28-INFO-User 553483302 started transcriber function
+22-10-09 20:31:29-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-09 20:31:29-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-09 20:31:29-28-INFO-User 553483302-Bot finished transcribing the file
+22-10-09 20:31:30-28-INFO-User 553483302-Result of transcriber sent to user
+22-10-09 20:31:32-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:31:33-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:31:33-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:31:34-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:31:36-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:31:36-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:31:46-28-INFO-User 553483302 started transcriber function
+22-10-09 20:31:47-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-09 20:31:47-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:31:47-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-09 20:31:47-28-INFO-User 553483302-Bot finished transcribing the file
+22-10-09 20:31:47-28-INFO-User 553483302-Result of transcriber sent to user
+22-10-09 20:31:47-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:31:48-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:31:48-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:31:50-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:31:50-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 20:36:37-28-INFO-User 5480482418 started transcriber function
+22-10-09 20:36:37-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 20:36:37-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 20:36:39-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 20:36:40-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 20:36:40-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 21:08:29-28-INFO-User 5480482418 requested /start function
+22-10-09 21:08:30-28-INFO-User 5480482418 request to /start function COMPLETED
+22-10-09 21:08:41-28-INFO-User 5480482418 started transcriber function
+22-10-09 21:08:42-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 21:08:43-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 21:08:43-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 21:08:43-28-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-09 21:08:43-28-INFO-User 5480482418-Result of translation sent to user
+22-10-09 21:08:52-28-INFO-User 5480482418 requested /idioma function
+22-10-09 21:08:55-28-INFO-User 5480482418 changed transcriber language to pt-BR
+22-10-09 21:08:56-28-INFO-User 5480482418 requested /tradutor function
+22-10-09 21:08:58-28-INFO-User 5480482418 turned the translator off
+22-10-09 21:09:00-28-INFO-User 5480482418 started transcriber function
+22-10-09 21:09:01-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 21:09:01-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 21:09:01-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 21:09:02-28-INFO-User 5480482418-Result of transcriber sent to user
+22-10-09 21:09:08-28-INFO-User 5480482418 started transcriber function
+22-10-09 21:09:08-28-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-09 21:09:08-28-INFO-User 5480482418-Bot converted the file to WAV
+22-10-09 21:09:09-28-INFO-User 5480482418-Bot finished transcribing the file
+22-10-09 21:09:09-28-INFO-User 5480482418-Result of transcriber sent to user
+22-10-09 21:14:09-28-INFO-User 5480482418 requested /start function
+22-10-09 21:14:10-28-INFO-User 5480482418 request to /start function COMPLETED
+22-10-09 21:16:01-28-INFO-User 5480482418 requested /config function
+22-10-09 21:16:01-28-INFO-User 5480482418 request to /config function COMPLETED
+22-10-09 21:16:56-28-INFO-User 5480482418 requested /start function
+22-10-09 21:16:57-28-INFO-User 5480482418 request to /start function COMPLETED
+22-10-09 23:55:48-28-INFO-User 5778540317 requested /start function
+22-10-09 23:55:49-28-INFO-User 5778540317 request to /start function COMPLETED
+22-10-09 23:56:13-28-INFO-User 5778540317 requested /start function
+22-10-09 23:56:14-28-INFO-User 5778540317 request to /start function COMPLETED
+22-10-10 00:43:57-28-INFO-User 553483302 requested /ajuda function
+22-10-10 00:43:58-28-INFO-User 553483302 request to /ajuda function COMPLETED
+22-10-10 00:44:17-28-INFO-User 553483302 started transcriber function
+22-10-10 00:44:18-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-10 00:44:18-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-10 00:44:18-28-ERROR-Not able to understand the audio file = 
+Traceback (most recent call last):
+  File "main.py", line 225, in transcriber
+    TextoResultado = recognizer.recognize_google(audio_data,
+  File "/home/runner/TelegramBot/venv/lib/python3.8/site-packages/speech_recognition/__init__.py", line 858, in recognize_google
+    if not isinstance(actual_result, dict) or len(actual_result.get("alternative", [])) == 0: raise UnknownValueError()
+speech_recognition.UnknownValueError
+22-10-10 00:44:25-28-INFO-User 553483302 started transcriber function
+22-10-10 00:44:26-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-10 00:44:26-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-10 00:44:26-28-INFO-User 553483302-Bot finished transcribing the file
+22-10-10 00:44:26-28-INFO-User 553483302-Result of transcriber sent to user
+22-10-10 00:44:36-28-INFO-User 553483302 requested /tradutor function
+22-10-10 00:44:39-28-INFO-User 553483302 turned the translator on
+22-10-10 00:44:43-28-INFO-User 553483302 changed translator language to english
+22-10-10 00:44:55-28-INFO-User 553483302 started transcriber function
+22-10-10 00:44:55-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-10 00:44:55-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-10 00:44:56-28-ERROR-Not able to understand the audio file = 
+Traceback (most recent call last):
+  File "main.py", line 225, in transcriber
+    TextoResultado = recognizer.recognize_google(audio_data,
+  File "/home/runner/TelegramBot/venv/lib/python3.8/site-packages/speech_recognition/__init__.py", line 858, in recognize_google
+    if not isinstance(actual_result, dict) or len(actual_result.get("alternative", [])) == 0: raise UnknownValueError()
+speech_recognition.UnknownValueError
+22-10-10 00:45:04-28-INFO-User 553483302 started transcriber function
+22-10-10 00:45:04-28-INFO-User 553483302-Bot downloaded audio file successfully
+22-10-10 00:45:04-28-INFO-User 553483302-Bot converted the file to WAV
+22-10-10 00:45:05-28-INFO-User 553483302-Bot finished transcribing the file
+22-10-10 00:45:05-28-INFO-User 553483302-Bot finished translating the resulting text
+22-10-10 00:45:05-28-INFO-User 553483302-Result of translation sent to user
