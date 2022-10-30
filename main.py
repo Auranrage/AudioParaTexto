@@ -10,7 +10,6 @@ import AuxiliaryFiles.Teclado as teclado
 import AuxiliaryFiles.FuncoesAuxiliares as auxFunc
 import AuxiliaryFiles.DatabaseFunctions as dbFunc
 
-
 logFilename = 'Logs/{:%Y%m%d}.log'.format(datetime.now())
 
 logging.basicConfig(level=logging.INFO, filename=logFilename, filemode='a', datefmt='%y-%m-%d %H:%M:%S',

@@ -1,0 +1,36 @@
+22-10-16 00:46:04-55-INFO-Bot started. Good morning administrator
+22-10-16 00:51:56-55-INFO-User 5480482418 started transcriber function
+22-10-16 11:20:03-43-INFO-Bot started. Good morning administrator
+22-10-16 11:21:59-43-INFO-User 5480482418 started transcriber function
+22-10-16 11:22:00-43-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-16 11:22:01-43-INFO-User 5480482418-Bot converted the file to WAV
+22-10-16 11:22:02-43-INFO-User 5480482418-Bot finished transcribing the file
+22-10-16 11:22:03-43-INFO-User 5480482418-Result of transcriber sent to user
+22-10-16 11:22:15-43-INFO-User 5480482418 requested /ajuda function
+22-10-16 11:22:16-43-INFO-User 5480482418 request to /ajuda function COMPLETED
+22-10-16 11:22:19-43-INFO-User 5480482418 requested /idioma function
+22-10-16 11:22:27-43-INFO-User 5480482418 changed transcriber language to right1
+22-10-16 11:22:37-43-INFO-User 5480482418 changed transcriber language to left2
+22-10-16 11:22:40-43-INFO-User 5480482418 changed transcriber language to ja-JP
+22-10-16 11:22:44-43-INFO-User 5480482418 requested /tradutor function
+22-10-16 11:22:46-43-INFO-User 5480482418 turned the translator on
+22-10-16 11:22:51-43-INFO-User 5480482418 changed translator language to english
+22-10-16 11:22:55-43-INFO-User 5480482418 started transcriber function
+22-10-16 11:22:55-43-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-16 11:22:56-43-INFO-User 5480482418-Bot converted the file to WAV
+22-10-16 11:22:56-43-INFO-User 5480482418-Bot finished transcribing the file
+22-10-16 11:22:56-43-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-16 11:22:56-43-INFO-User 5480482418-Result of translation sent to user
+22-10-16 11:23:23-43-INFO-User 5480482418 requested /idioma function
+22-10-16 11:23:24-43-INFO-User 5480482418 changed transcriber language to right1
+22-10-16 11:23:27-43-INFO-User 5480482418 changed transcriber language to left2
+22-10-16 11:23:30-43-INFO-User 5480482418 requested /tradutor function
+22-10-16 11:23:33-43-INFO-User 5480482418 turned the translator on
+22-10-16 11:24:02-43-INFO-User 5480482418 changed transcriber language to pt-BR
+22-10-16 11:24:05-43-INFO-User 5480482418 changed translator language to english
+22-10-16 11:24:42-43-INFO-User 5480482418 started transcriber function
+22-10-16 11:24:43-43-INFO-User 5480482418-Bot downloaded audio file successfully
+22-10-16 11:24:43-43-INFO-User 5480482418-Bot converted the file to WAV
+22-10-16 11:24:45-43-INFO-User 5480482418-Bot finished transcribing the file
+22-10-16 11:24:46-43-INFO-User 5480482418-Bot finished translating the resulting text
+22-10-16 11:24:46-43-INFO-User 5480482418-Result of translation sent to user
