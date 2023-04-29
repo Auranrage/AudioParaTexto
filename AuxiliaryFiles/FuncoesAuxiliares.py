@@ -1,8 +1,8 @@
-import os
+import passwords
 import telebot
 import AuxiliaryFiles.Teclado as teclado
 
-API_KEY = os.environ['API_KEY']
+API_KEY = passwords.API_KEY
 bot = telebot.TeleBot(API_KEY)
 
 #Funcao auxiliar para definir o idioma do texto antes da traducao para o google translate

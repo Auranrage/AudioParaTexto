@@ -1,0 +1,216 @@
+23-04-29 17:08:25-14598-INFO-Bot started. Good morning administrator
+23-04-29 17:08:26-14598-INFO-User 5480482418 requested /config function
+23-04-29 17:08:26-14598-INFO-User 5480482418 requested /config function
+23-04-29 17:08:26-14598-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 81, in config
+    userData = dbFunc.getUserData(message.chat.id)
+  File "/home/auran/Desktop/leIA/LeIA-master/AuxiliaryFiles/DatabaseFunctions.py", line 39, in getUserData
+    cursor.execute("SELECT * FROM users WHERE user_id = :id",{'id': chatId})
+sqlite3.OperationalError: no such table: users
+23-04-29 17:08:26-14598-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 81, in config
+    userData = dbFunc.getUserData(message.chat.id)
+  File "/home/auran/Desktop/leIA/LeIA-master/AuxiliaryFiles/DatabaseFunctions.py", line 39, in getUserData
+    cursor.execute("SELECT * FROM users WHERE user_id = :id",{'id': chatId})
+sqlite3.OperationalError: no such table: users
+23-04-29 17:08:26-14598-INFO-User 5480482418 requested /idioma function
+23-04-29 17:08:26-14598-INFO-User 5480482418 requested /config function
+23-04-29 17:08:26-14598-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 81, in config
+    userData = dbFunc.getUserData(message.chat.id)
+  File "/home/auran/Desktop/leIA/LeIA-master/AuxiliaryFiles/DatabaseFunctions.py", line 39, in getUserData
+    cursor.execute("SELECT * FROM users WHERE user_id = :id",{'id': chatId})
+sqlite3.OperationalError: no such table: users
+23-04-29 17:08:42-14598-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 140, in callback_query
+    dbFunc.checkUserExist(chatId, first_name, last_name)
+  File "/home/auran/Desktop/leIA/LeIA-master/AuxiliaryFiles/DatabaseFunctions.py", line 13, in checkUserExist
+    cursor.execute("SELECT count(user_id) FROM users WHERE user_id = :id",{'id': chatId})
+sqlite3.OperationalError: no such table: users
+23-04-29 17:18:24-14598-INFO-User 5480482418 is using the system for the first time. Adding user to database.
+23-04-29 17:18:24-14598-INFO-User 5480482418 added to users table.
+23-04-29 17:18:25-14598-INFO-User 5480482418 changed transcriber language to pt-BR
+23-04-29 17:18:48-14598-INFO-User 5480482418 started transcriber function
+23-04-29 17:18:49-14598-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 17:18:49-14598-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 223, in transcriber
+    subprocess.call(['ffmpeg', '-i', downloadedAudioFile, convertedAudioFile, '-y'])
+  File "/home/auran/anaconda3/lib/python3.10/subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/auran/anaconda3/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/auran/anaconda3/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
+23-04-29 17:21:32-14598-INFO-User 5480482418 started transcriber function
+23-04-29 17:21:33-14598-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 17:21:35-14598-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 17:21:36-14598-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 17:21:36-14598-INFO-User 5480482418-Result of transcriber sent to user
+23-04-29 17:22:40-14598-INFO-User 5480482418 requested /config function
+23-04-29 17:22:41-14598-INFO-User 5480482418 request to /config function COMPLETED
+23-04-29 17:22:46-14598-INFO-User 5480482418 requested /tradutor function
+23-04-29 17:22:49-14598-INFO-User 5480482418 turned the translator on
+23-04-29 17:28:16-14598-INFO-User 5480482418 changed translator language to english
+23-04-29 17:28:38-14598-INFO-User 5480482418 started transcriber function
+23-04-29 17:28:40-14598-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 17:28:40-14598-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 17:28:44-14598-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 17:28:46-14598-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 17:28:46-14598-INFO-User 5480482418-Result of translation sent to user
+23-04-29 17:40:17-14598-INFO-User 5480482418 requested /ajuda function
+23-04-29 17:40:18-14598-INFO-User 5480482418 request to /ajuda function COMPLETED
+23-04-29 17:40:32-14598-INFO-User 5480482418 requested /config function
+23-04-29 17:40:33-14598-INFO-User 5480482418 request to /config function COMPLETED
+23-04-29 18:00:35-16139-INFO-Bot started. Good morning administrator
+23-04-29 18:00:59-16139-INFO-User 5480482418 started transcriber function
+23-04-29 18:01:01-16139-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:01:01-16139-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:01:02-16139-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:01:03-16139-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:01:03-16139-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 254, in transcriber
+    bot.reply_to(message, "Texto do audio: "+TextoResultado+"\n\nTexto Traduzido: "+TextoTraduzido+"\n\nSentimento do texto:"+TextoSentimento)
+TypeError: can only concatenate str (not "dict") to str
+23-04-29 18:02:43-16189-INFO-Bot started. Good morning administrator
+23-04-29 18:03:09-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:03:10-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:03:11-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:03:12-16189-ERROR-Not able to understand the audio file = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 238, in transcriber
+    TextoResultado = recognizer.recognize_google(audio_data,
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/speech_recognition/__init__.py", line 728, in recognize_google
+    if not isinstance(actual_result, dict) or len(actual_result.get("alternative", [])) == 0: raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+23-04-29 18:03:26-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:03:27-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:03:27-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:03:28-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:03:28-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:03:29-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 18:03:54-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:03:55-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:03:55-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:03:56-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:03:57-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:03:57-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 18:05:39-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:05:40-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:05:40-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:05:41-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:05:42-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:05:42-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 18:07:08-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:07:10-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:07:10-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:07:11-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:07:11-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:07:12-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 18:07:19-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:07:20-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:07:20-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:07:21-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:07:22-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:07:22-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 18:07:32-16189-INFO-User 5480482418 started transcriber function
+23-04-29 18:07:32-16189-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 18:07:32-16189-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 18:07:33-16189-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 18:07:34-16189-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 18:07:35-16189-INFO-User 5480482418-Result of translation sent to user
+23-04-29 19:26:42-17012-INFO-Bot started. Good morning administrator
+23-04-29 19:27:37-17012-INFO-User 5480482418 started transcriber function
+23-04-29 19:27:39-17012-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:27:39-17012-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:27:41-17012-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:27:42-17012-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:27:42-17012-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 254, in transcriber
+    bot.reply_to(message, "Texto do audio: "+TextoResultado+"\n\nTexto Traduzido: "+TextoTraduzido+"\n\nSentimento do texto:"+TextoSentimento)
+TypeError: can only concatenate str (not "dict") to str
+23-04-29 19:33:09-17095-INFO-Bot started. Good morning administrator
+23-04-29 19:33:19-17095-INFO-User 5480482418 started transcriber function
+23-04-29 19:33:20-17095-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:33:20-17095-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:33:21-17095-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:33:23-17095-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 242, in transcriber
+    sentimentoPontuacao=TextoSentimento.compound
+AttributeError: 'dict' object has no attribute 'compound'
+23-04-29 19:34:23-17147-INFO-Bot started. Good morning administrator
+23-04-29 19:34:58-17147-INFO-User 5480482418 started transcriber function
+23-04-29 19:35:00-17147-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:35:00-17147-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:35:01-17147-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:35:02-17147-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 242, in transcriber
+    sentimentoPontuacao=TextoSentimento[3]
+KeyError: 3
+23-04-29 19:35:56-17202-INFO-Bot started. Good morning administrator
+23-04-29 19:36:04-17202-INFO-User 5480482418 started transcriber function
+23-04-29 19:36:05-17202-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:36:05-17202-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:36:06-17202-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:36:08-17202-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:36:08-17202-ERROR-An exception occurred = 
+Traceback (most recent call last):
+  File "/home/auran/Desktop/leIA/LeIA-master/telegramBot.py", line 255, in transcriber
+    bot.reply_to(message, "Texto do audio: "+TextoResultado+"\n\nTexto Traduzido: "+TextoTraduzido+"\n\nSentimento do texto:"+sentimentoPontuacao)
+TypeError: can only concatenate str (not "float") to str
+23-04-29 19:38:10-17249-INFO-Bot started. Good morning administrator
+23-04-29 19:38:18-17249-INFO-User 5480482418 started transcriber function
+23-04-29 19:38:19-17249-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:38:19-17249-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:38:21-17249-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:38:22-17249-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:38:22-17249-INFO-User 5480482418-Result of translation sent to user
+23-04-29 19:38:52-17249-INFO-User 5480482418 started transcriber function
+23-04-29 19:38:53-17249-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:38:53-17249-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:38:55-17249-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:38:56-17249-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:38:56-17249-INFO-User 5480482418-Result of translation sent to user
+23-04-29 19:39:14-17249-INFO-User 5480482418 started transcriber function
+23-04-29 19:39:14-17249-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:39:14-17249-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:39:16-17249-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:39:17-17249-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:39:17-17249-INFO-User 5480482418-Result of translation sent to user
+23-04-29 19:39:27-17249-INFO-User 5480482418 started transcriber function
+23-04-29 19:39:28-17249-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 19:39:28-17249-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 19:39:30-17249-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 19:39:30-17249-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 19:39:31-17249-INFO-User 5480482418-Result of translation sent to user
+23-04-29 20:06:30-17475-INFO-Bot started. Good morning administrator
+23-04-29 20:06:40-17475-INFO-User 5480482418 started transcriber function
+23-04-29 20:06:41-17475-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 20:06:41-17475-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 20:06:42-17475-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 20:06:44-17475-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-04-29 20:06:44-17475-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 20:06:44-17475-INFO-User 5480482418-Result of translation sent to user
+23-04-29 20:06:54-17475-INFO-User 5480482418 started transcriber function
+23-04-29 20:06:55-17475-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 20:06:55-17475-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 20:06:56-17475-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 20:06:57-17475-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-04-29 20:06:57-17475-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 20:06:58-17475-INFO-User 5480482418-Result of translation sent to user
+23-04-29 20:07:05-17475-INFO-User 5480482418 started transcriber function
+23-04-29 20:07:06-17475-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 20:07:06-17475-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 20:07:07-17475-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 20:07:08-17475-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-04-29 20:07:08-17475-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 20:07:09-17475-INFO-User 5480482418-Result of translation sent to user
