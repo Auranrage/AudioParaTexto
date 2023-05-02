@@ -214,3 +214,23 @@ TypeError: can only concatenate str (not "float") to str
 23-04-29 20:07:08-17475-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
 23-04-29 20:07:08-17475-INFO-User 5480482418-Bot finished translating the resulting text
 23-04-29 20:07:09-17475-INFO-User 5480482418-Result of translation sent to user
+23-04-29 21:18:07-22560-INFO-Bot started. Good morning administrator
+23-04-29 21:25:34-22770-INFO-Bot started. Good morning administrator
+23-04-29 21:25:56-22770-INFO-User 5480482418 requested /start function
+23-04-29 21:25:56-22770-INFO-User 5480482418 request to /start function COMPLETED
+23-04-29 21:25:59-22770-INFO-User 5480482418 requested /config function
+23-04-29 21:26:00-22770-INFO-User 5480482418 request to /config function COMPLETED
+23-04-29 21:26:35-22770-INFO-User 5480482418 started transcriber function
+23-04-29 21:26:37-22770-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 21:26:37-22770-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 21:26:39-22770-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 21:26:40-22770-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-04-29 21:26:40-22770-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 21:26:41-22770-INFO-User 5480482418-Result of translation sent to user
+23-04-29 21:27:34-22770-INFO-User 5480482418 started transcriber function
+23-04-29 21:27:35-22770-INFO-User 5480482418-Bot downloaded audio file successfully
+23-04-29 21:27:35-22770-INFO-User 5480482418-Bot converted the file to WAV
+23-04-29 21:27:36-22770-INFO-User 5480482418-Bot finished transcribing the file
+23-04-29 21:27:36-22770-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-04-29 21:27:36-22770-INFO-User 5480482418-Bot finished translating the resulting text
+23-04-29 21:27:37-22770-INFO-User 5480482418-Result of translation sent to user

@@ -38,3 +38,15 @@ tradutor2.row(botao.italiano, botao.grego)
 tradutor2.row(botao.dinamarca, botao.arabe)
 tradutor2.row(botao.afrikaans, botao.noruega)
 tradutor2.row(botao.left2, botao.right2)
+
+#Teclado para o processo /parental
+parental = telebot.types.InlineKeyboardMarkup()
+parental.row(botao.responsavel, botao.dependente)
+
+#Teclado para o processo /parental caso seja um responsavel
+parentalR = telebot.types.InlineKeyboardMarkup()
+parentalR.row(botao.responsavel, botao.dependente, botao.cancelar)
+
+#Teclado para o processo /parental caso seja um responsavel
+parentalCancelar = telebot.types.InlineKeyboardMarkup()
+parentalCancelar.row(botao.simP, botao.naoP)

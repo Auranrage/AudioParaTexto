@@ -49,3 +49,12 @@ right1 = telebot.types.InlineKeyboardButton('->', callback_data='right1')
 left1 = telebot.types.InlineKeyboardButton('<-', callback_data='left1')
 right2 = telebot.types.InlineKeyboardButton('->', callback_data='right2')
 left2 = telebot.types.InlineKeyboardButton('<-', callback_data='left2')
+
+#Botões /parental
+responsavel = telebot.types.InlineKeyboardButton('Responsável', callback_data='responsavel')
+dependente = telebot.types.InlineKeyboardButton('Dependente', callback_data='dependente')
+cancelar = telebot.types.InlineKeyboardButton('Cancelar', callback_data='cancelar')
+
+#Botões /parental cancelar
+simP = telebot.types.InlineKeyboardButton('Sim', callback_data='simP')
+naoP = telebot.types.InlineKeyboardButton('Não', callback_data='naoP')
