@@ -694,3 +694,9 @@ Exception: Message is not numeric or its length is not 4
 23-05-01 21:11:08-61649-INFO-Bot started. Good morning administrator
 23-05-01 21:11:26-61649-INFO-User 5480482418 requested /ajuda function
 23-05-01 21:11:27-61649-INFO-User 5480482418 request to /ajuda function COMPLETED
+23-05-01 21:44:54-2411-INFO-Bot started. Good morning administrator
+23-05-01 21:45:11-2411-INFO-User 5480482418 requested /ajuda function
+23-05-01 21:45:12-2411-INFO-User 5480482418 request to /ajuda function COMPLETED
+23-05-01 21:45:23-2411-INFO-User 5480482418 requested /config function
+23-05-01 21:45:24-2411-INFO-User 5480482418 request to /config function COMPLETED
+23-05-01 23:26:50-2881-INFO-Bot started. Good morning administrator

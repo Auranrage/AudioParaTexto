@@ -477,4 +477,9 @@ def transcriber(message):
         logging.exception('An exception occurred = ')
         print("An exception occurred = "+str(exception))
 
-bot.polling()
+while True:
+    try:
+        bot.polling()
+    except Exception:
+        time.sleep(15)
+
