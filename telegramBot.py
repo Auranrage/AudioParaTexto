@@ -11,6 +11,7 @@ import AuxiliaryFiles.FuncoesAuxiliares as auxFunc
 import AuxiliaryFiles.DatabaseFunctions as dbFunc
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import re
+import time
 
 # Configuracoes basicas dos logs
 logFilename = 'Logs/{:%Y%m%d}.log'.format(datetime.now())
@@ -191,11 +192,11 @@ def parental(message):
         parentalFlag = userData[6]
 
         if parentalFlag==3:
-            bot.send_message(message.chat.id, "Para configurar o controle parental do bot, é necessário que o dependente"
+            bot.send_message(message.chat.id, "Para configurar o controle parental do bot, é necessário que o dependente "
                                         "mande um código para o responsável. Você é um responsável ou um dependente?",
                                         reply_markup=teclado.parentalR)
         else:
-            bot.send_message(message.chat.id, "Para configurar o controle parental do bot, é necessário que o dependente"
+            bot.send_message(message.chat.id, "Para configurar o controle parental do bot, é necessário que o dependente "
                                         "mande um código para o responsável. Você é um responsável ou um dependente?",
                                         reply_markup=teclado.parental)
 

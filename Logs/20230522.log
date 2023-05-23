@@ -1,0 +1,75 @@
+23-05-22 18:24:30-2406-INFO-Bot started. Good morning administrator
+23-05-22 18:24:54-2406-INFO-User 5480482418 requested /ajuda function
+23-05-22 18:24:55-2406-INFO-User 5480482418 request to /ajuda function COMPLETED
+23-05-22 18:25:35-2406-INFO-User 5480482418 requested /start function
+23-05-22 18:25:36-2406-INFO-User 5480482418 request to /start function COMPLETED
+23-05-22 18:25:44-2406-INFO-User 5480482418 requested /ajuda function
+23-05-22 18:25:45-2406-INFO-User 5480482418 request to /ajuda function COMPLETED
+23-05-22 18:27:35-2406-INFO-User 5480482418 requested /idioma function
+23-05-22 18:27:40-2406-INFO-User 5480482418 changed transcriber language to en-US
+23-05-22 18:27:58-2406-INFO-User 5480482418 requested /tradutor function
+23-05-22 18:28:02-2406-INFO-User 5480482418 turned the translator on
+23-05-22 18:29:25-2406-INFO-User 5480482418 changed translator language to portuguese
+23-05-22 18:29:35-2406-INFO-User 5480482418 requested /config function
+23-05-22 18:29:36-2406-INFO-User 5480482418 request to /config function COMPLETED
+23-05-22 18:38:09-2406-INFO-User 5480482418 requested /parental function
+23-05-22 18:38:13-2406-INFO-User 5480482418-Pin 1391 created.
+23-05-22 18:38:13-2406-INFO-User 5480482418-Pin created and added to parental table.
+23-05-22 18:38:14-2406-INFO-User 5480482418 received code to send to parent
+23-05-22 18:38:28-2406-INFO-User 5480482418 requested /parental function
+23-05-22 18:45:08-3370-INFO-Bot started. Good morning administrator
+23-05-22 18:45:18-3370-INFO-User 5480482418 requested /parental function
+23-05-22 19:19:53-3370-INFO-User 5480482418-Pin 6093 created.
+23-05-22 19:19:53-3370-INFO-User 5480482418-Pin created and added to parental table.
+23-05-22 19:19:53-3370-INFO-User 5480482418 received code to send to parent
+23-05-22 19:19:56-3370-INFO-User 5480482418 requested /parental function
+23-05-22 19:20:00-3370-INFO-User 5480482418 turned on parental control to child responsavel. Waiting confirmation.
+23-05-22 19:20:07-3370-INFO-User 5480482418 wrote a text
+23-05-22 19:20:07-3370-INFO-User 5480482418-Adding parent to child parental control.
+23-05-22 19:20:07-3370-INFO-User 5480482418-Parent chatId added successfully to child parental control
+23-05-22 19:20:07-3370-INFO-User 5480482418-End of text handler
+23-05-22 19:20:13-3370-INFO-User 5480482418 requested /config function
+23-05-22 19:20:14-3370-INFO-User 5480482418 request to /config function COMPLETED
+23-05-22 19:27:10-3370-INFO-User 5480482418 requested /parental function
+23-05-22 19:33:36-3370-INFO-User 5480482418 started transcriber function
+23-05-22 19:33:38-3370-INFO-User 5480482418-Bot downloaded audio file successfully
+23-05-22 19:33:40-3370-INFO-User 5480482418-Bot converted the file to WAV
+23-05-22 19:33:41-3370-INFO-User 5480482418-Bot finished transcribing the file
+23-05-22 19:33:41-3370-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-05-22 19:33:42-3370-INFO-User 5480482418-Bot finished translating the resulting text
+23-05-22 19:33:42-3370-INFO-User 5480482418-Result of translation sent to user
+23-05-22 19:33:52-3370-INFO-User 5480482418 started transcriber function
+23-05-22 19:33:53-3370-INFO-User 5480482418-Bot downloaded audio file successfully
+23-05-22 19:33:53-3370-INFO-User 5480482418-Bot converted the file to WAV
+23-05-22 19:33:54-3370-INFO-User 5480482418-Bot finished transcribing the file
+23-05-22 19:33:54-3370-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-05-22 19:33:54-3370-INFO-User 5480482418-Bot finished translating the resulting text
+23-05-22 19:33:55-3370-INFO-User 5480482418-Result of translation sent to user
+23-05-22 19:34:04-3370-INFO-User 5480482418 started transcriber function
+23-05-22 19:34:04-3370-INFO-User 5480482418-Bot downloaded audio file successfully
+23-05-22 19:34:04-3370-INFO-User 5480482418-Bot converted the file to WAV
+23-05-22 19:34:05-3370-INFO-User 5480482418-Bot finished transcribing the file
+23-05-22 19:34:05-3370-INFO-User 5480482418-Bot finished analyzing the sentiment of the text
+23-05-22 19:34:06-3370-INFO-User 5480482418-Bot finished translating the resulting text
+23-05-22 19:34:06-3370-INFO-User 5480482418-Result of translation sent to user
+23-05-22 22:10:29-3370-ERROR-Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+23-05-22 22:10:29-3370-ERROR-Exception traceback:
+Traceback (most recent call last):
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/__init__.py", line 1073, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/util.py", line 108, in raise_exceptions
+    raise self.exception_info
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/util.py", line 90, in run
+    task(*args, **kwargs)
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/__init__.py", line 649, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/__init__.py", line 623, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/apihelper.py", line 321, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/auran/anaconda3/lib/python3.10/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
